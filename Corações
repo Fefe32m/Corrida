@@ -28,6 +28,9 @@ function draw() {
     noLoop(); // para o jogo
   }
 }
+for (let yAtual = 0; yAtual < 400; yAtual += 20) { 
+rect(350, yAtual, 10, 10);
+ }
 
 function keyReleased() {
   for (let i = 0; i < jogadores.length; i++) {
